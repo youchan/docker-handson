@@ -1,0 +1,12 @@
+.gibier .page_0 p.icon {
+  margin: 0;
+  position: relative;
+  left: 32em;
+  top: -3em;
+}
+
+.gibier .background {
+  height: 100%;
+  background-color: #fff;
+  color: #222;
+}

@@ -1,0 +1,2 @@
+alias bundle="docker run --rm -it -v `pwd`:/temple temple bundle"
+alias rails="docker run --rm -it -v `pwd`:/temple -p 3000:3000 --link temple-db:db temple rails"
