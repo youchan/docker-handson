@@ -160,7 +160,7 @@ end
 def content
   [].tap do |children|
       children << code({ dangerouslySetInnerHTML: { __html: %q{<div class="highlight"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
-2</pre></td><td class="code"><pre>    $ docker run --rm temple --rm uname -a
+2</pre></td><td class="code"><pre>    $ docker run --rm temple uname -a
     Linux 874fd214b983 4.9.93-linuxkit-aufs #1 SMP Wed Jun 6 16:55:56 UTC 2018 x86_64 Linux
 </pre></td></tr></tbody></table>
 </div>
@@ -212,7 +212,7 @@ def content
 2
 3</pre></td><td class="code"><pre>FROM alpine
 
-RUN apk add --no-cache bash ruby
+RUN apk add --no-cache bash
 </pre></td></tr></tbody></table>
 </div>
 } } })

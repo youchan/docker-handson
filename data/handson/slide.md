@@ -76,7 +76,7 @@ FROM alpine
 ## 実行してみましょう
 
 ```
-    $ docker run --rm temple --rm uname -a
+    $ docker run --rm temple uname -a
     Linux 874fd214b983 4.9.93-linuxkit-aufs #1 SMP Wed Jun 6 16:55:56 UTC 2018 x86_64 Linux
 ```
 
@@ -101,7 +101,7 @@ FROM alpine
 ```
 FROM alpine
 
-RUN apk add --no-cache bash ruby
+RUN apk add --no-cache bash
 ```
 
 ## bash

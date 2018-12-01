@@ -29981,7 +29981,7 @@ if (children == null) children = nil;
 
       return $send([], 'tap', [], (TMP_31 = function(children){var self = TMP_31.$$s || this;
 if (children == null) children = nil;
-      return children['$<<'](self.$code($hash2(["dangerouslySetInnerHTML"], {"dangerouslySetInnerHTML": $hash2(["__html"], {"__html": "" + "<div class=\"highlight\"><table style=\"border-spacing: 0\"><tbody><tr><td class=\"gutter gl\" style=\"text-align: right\"><pre class=\"lineno\">1\n" + "2</pre></td><td class=\"code\"><pre>    $ docker run --rm temple --rm uname -a\n" + "    Linux 874fd214b983 4.9.93-linuxkit-aufs #1 SMP Wed Jun 6 16:55:56 UTC 2018 x86_64 Linux\n" + "</pre></td></tr></tbody></table>\n" + "</div>\n"})})))}, TMP_31.$$s = self, TMP_31.$$arity = 1, TMP_31))
+      return children['$<<'](self.$code($hash2(["dangerouslySetInnerHTML"], {"dangerouslySetInnerHTML": $hash2(["__html"], {"__html": "" + "<div class=\"highlight\"><table style=\"border-spacing: 0\"><tbody><tr><td class=\"gutter gl\" style=\"text-align: right\"><pre class=\"lineno\">1\n" + "2</pre></td><td class=\"code\"><pre>    $ docker run --rm temple uname -a\n" + "    Linux 874fd214b983 4.9.93-linuxkit-aufs #1 SMP Wed Jun 6 16:55:56 UTC 2018 x86_64 Linux\n" + "</pre></td></tr></tbody></table>\n" + "</div>\n"})})))}, TMP_31.$$s = self, TMP_31.$$arity = 1, TMP_31))
     }, TMP_Page10_content_32.$$arity = 0), nil) && 'content';
   })(Opal.const_get_relative($nesting, 'Gibier'), Opal.const_get_qualified(Opal.const_get_relative($nesting, 'Gibier'), 'PageBase'), $nesting);
   (function($base, $super, $parent_nesting) {
@@ -30048,7 +30048,7 @@ if (children == null) children = nil;
 if (children == null) children = nil;
       
         children['$<<'](self.$p(nil, self.$strong(nil, self.$code(nil, "Dockerfile"))));
-        return children['$<<'](self.$code($hash2(["dangerouslySetInnerHTML"], {"dangerouslySetInnerHTML": $hash2(["__html"], {"__html": "" + "<div class=\"highlight\"><table style=\"border-spacing: 0\"><tbody><tr><td class=\"gutter gl\" style=\"text-align: right\"><pre class=\"lineno\">1\n" + "2\n" + "3</pre></td><td class=\"code\"><pre>FROM alpine\n" + "\n" + "RUN apk add --no-cache bash ruby\n" + "</pre></td></tr></tbody></table>\n" + "</div>\n"})})));}, TMP_40.$$s = self, TMP_40.$$arity = 1, TMP_40))
+        return children['$<<'](self.$code($hash2(["dangerouslySetInnerHTML"], {"dangerouslySetInnerHTML": $hash2(["__html"], {"__html": "" + "<div class=\"highlight\"><table style=\"border-spacing: 0\"><tbody><tr><td class=\"gutter gl\" style=\"text-align: right\"><pre class=\"lineno\">1\n" + "2\n" + "3</pre></td><td class=\"code\"><pre>FROM alpine\n" + "\n" + "RUN apk add --no-cache bash\n" + "</pre></td></tr></tbody></table>\n" + "</div>\n"})})));}, TMP_40.$$s = self, TMP_40.$$arity = 1, TMP_40))
     }, TMP_Page13_content_41.$$arity = 0), nil) && 'content';
   })(Opal.const_get_relative($nesting, 'Gibier'), Opal.const_get_qualified(Opal.const_get_relative($nesting, 'Gibier'), 'PageBase'), $nesting);
   (function($base, $super, $parent_nesting) {
