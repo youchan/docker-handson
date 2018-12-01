@@ -20,16 +20,12 @@ app = Rack::Builder.app do
   map '/assets' do
     run server.settings.opal.sprockets
   end
-
-  map '/__OPAL_SOURCE_MAPS__' do
-    run Opal::SourceMapServer.new(server.settings.opal.sprockets, '/__OPAL_SOURCE_MAPS__')
-  end
 end
 
 Rack::Server.start({
   app:    app,
   server: 'thin',
   Host:   '0.0.0.0',
-  Port:   8080,
+  Port:   8081,
   signals: false,
 })

@@ -6,6 +6,42 @@
 
 %duration: 1min
 
+## 自己紹介
+
+%large: 大崎 瑶(よう)
+
+%large: @youchan
+
+## 自己紹介
+
+%large: Rubyistです。
+
+## RubyKaigi & RubyConf
+
+* **RubyKaigi2015**: "Writing web application in Ruby"
+* **RubyKaigi2016**: "Isomorphic web programming in Ruby"
+* **RubyKaigi2017**: "dRuby on Browser"
+* **RubyKaigi2018**: "How to get the dark power from ISeq"
+* **RubyConf2018**: "Building web-based board games only with Ruby"
+
+## 同人誌
+
+* Pragmatic Opal
+* ISeq探訪
+* 猫と森羅と日本語とRuby
+
+## 猫と森羅と日本語とRuby
+
+![portlait-left](neko.jpg)
+
+%right:
+
+* 日本語の自然言語処理 + Ruby
+* 湊川さんに表紙+イラストを書いていただきました！
+* BOOTHにて絶賛販売中
+
+https://youchan.booth.pm/items/1041946
+
 ---
 
 %large: Dockerfileを書いてみよう
@@ -165,19 +201,42 @@ WORKDIR /temple
     $ docker run --rm -it -v ${PWD}:/temple temple ruby progress.rb
 ```
 
----
+## Coffee break
 
-%large: たぶんこのへんで休憩
+![middle](coffee.jpg)
 
----
+## DockerでRailsを動かそう
 
-%large: DockerでRailsを動かそう
+![portlait](rails.png)
 
 ---
 
 %large: Railsを知らないひとのために
 
 ※ gemとかbundlerとか…
+
+## rubygems(gem)
+
+* Rubyのライブラリのパッケージシステム
+* JavaScriptの`npm`、Pythonなら`pip`
+
+## bundler
+
+* 複数のバージョンの`gem`を切り換えて使うためにある
+* アプリケーションで使う`gem`を特定のバージョンに固定できる
+* `Gemfile`で管理
+
+## Gemfile
+
+```ruby
+# frozen_string_literal: true
+
+source "https://rubygems.org"
+
+git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
+
+gem "rails"
+```
 
 ## imageにRailsをインストールするよ！
 

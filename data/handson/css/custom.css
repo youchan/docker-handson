@@ -10,3 +10,8 @@
   background-color: #fff;
   color: #222;
 }
+
+.gibier a:link { color: #228; }
+.gibier a:visited { color: #228; }
+.gibier a:hover { color: #228; }
+.gibier a:active { color: #228; }

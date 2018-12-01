@@ -117,6 +117,7 @@ body {
 }
 
 .page code {
+  font-family: Inconsolata; 
   font-size: 0.8em;
 }
 
@@ -201,10 +202,13 @@ body {
   float: left;
 }
 
+.page .right {
+  margin-bottom: 6em;
+}
+
 .page .right ~ * {
   position: relative;
   float: left;
-  margin-top: 10em;
   margin-left: 2em;
   width: 20em;
 }
